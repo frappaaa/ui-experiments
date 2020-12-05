@@ -24,18 +24,12 @@ header .activator:hover {
   background: #1e2129;
 }
 
-img {
+header img {
   width: 100%;
-  max-width: 45px;
+  min-width: 45px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav {
+header nav {
   background: #292e38;
   border-radius: 0 5em 5em 0;
   padding: .5em;
@@ -43,24 +37,27 @@ nav {
           clip-path: ellipse(50% 50% at -50% 50%);
 }
 
-nav ul {
+header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-nav ul li a {
+header nav ul li a {
   display: block;
   padding: .5em;
   margin: 0 .5em;
   border-radius: 50%;
 }
 
-nav ul li a:hover {
+header nav ul li a:hover {
   background: #323844;
 }
 
-nav ul li a img {
+header nav ul li a img {
   opacity: 0;
   -webkit-transform: translateX(-10px);
           transform: translateX(-10px);
