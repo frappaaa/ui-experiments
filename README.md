@@ -8,5 +8,7 @@ Stay tuned and go checkout his [channel](https://www.youtube.com/channel/UCVyRiM
 ## UI Experiment 1
 [![Video of Gary Simon doing the UI Experiment 1](https://github.com/frappaaa/ui-experiments/blob/main/img/uiEx1.jpg)](https://www.youtube.com/embed/a821gLAdLAU)
 
+#### ![UI Experiment 1 - Interactive Hover Card](https://github.com/frappaaa/ui-experiments/tree/main/UI01-interactive_hover_card)
+
 ## UI Experiment 2
 [![Video of Gary Simon doing the UI Experiment 2](https://github.com/frappaaa/ui-experiments/blob/main/img/uiEx2.jpg)](https://www.youtube.com/embed/n4_s0DpiHjQ)
