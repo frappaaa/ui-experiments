@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    h1 {
+        margin: 0;
+        position: absolute;
+        font-family: Pier Sans;
+        text-align: center;
+        font-size: 100px;
+        color: transparent;
+        top: 150px;
+        left: 50%;
+        transform: translate(-50%, -25%);
+        background: linear-gradient(70deg, #ed2225, #f99621, #f1eb1b, #0c9b49, #3954a5, #93298e);
+        background-clip: border-box;
+        background-clip: text;
+        text-shadow: -5px -5px 0px #fff;
+    }
+    section.flag {
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(70deg, rgb(231, 98, 75), rgb(73, 134, 224));
+    }
+    section.text {
+        height: 100vh;
+        display: grid;
+        place-content: center;
+        font-family: Pier Sans;
+        text-align: center;
+        font-size: 100px;
+    }
+}
