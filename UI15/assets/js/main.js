@@ -8,7 +8,7 @@ listItems.forEach((li, i) => {
         photos[i].classList.remove('intro')
     })
     li.addEventListener('mousemove', (e) => {
-        photos[i].style.left = e.clientX * .5 + 'px'
-        photos[i].style.top = e.clientY * .5 + 100 + 'px'
+        photos[i].style.left = e.clientX * .5 - 200+ 'px'
+        photos[i].style.top = e.clientY * .5 - 200 + 'px'
     })
 })
