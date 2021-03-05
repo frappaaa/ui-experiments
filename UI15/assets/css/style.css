@@ -51,6 +51,29 @@ ul li {
   text-transform: uppercase;
   padding: .8em 0 .8em .8em;
   cursor: pointer;
+  border-radius: 87% 13% 86% 14% / 12% 83% 17% 88%;
   position: relative;
+  -webkit-transition: border-radius 1s;
+  transition: border-radius 1s;
+}
+
+ul li:before {
+  position: absolute;
+  content: '';
+  width: 0;
+  border-bottom: 2px solid #000;
+  top: 1.45em;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+ul li:hover {
+  border: 1px solid grey;
+  border-radius: 49% 51% 49% 51% / 21% 71% 29% 79%;
+}
+
+ul li:hover:before {
+  content: '';
+  width: 80%;
 }
 /*# sourceMappingURL=style.css.map */
