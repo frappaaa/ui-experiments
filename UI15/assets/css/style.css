@@ -47,6 +47,24 @@ ul {
   width: 10em;
 }
 
+@-webkit-keyframes border {
+  0% {
+    border-radius: 87% 13% 86% 14% / 12% 83% 17% 88%;
+  }
+  100% {
+    border-radius: 49% 51% 49% 51% / 21% 71% 29% 79%;
+  }
+}
+
+@keyframes border {
+  0% {
+    border-radius: 87% 13% 86% 14% / 12% 83% 17% 88%;
+  }
+  100% {
+    border-radius: 49% 51% 49% 51% / 21% 71% 29% 79%;
+  }
+}
+
 ul li {
   text-transform: uppercase;
   padding: .8em 0 .8em .8em;
@@ -69,7 +87,8 @@ ul li:before {
 
 ul li:hover {
   border: 1px solid grey;
-  border-radius: 49% 51% 49% 51% / 21% 71% 29% 79%;
+  -webkit-animation: border 2s ease-in-out alternate;
+          animation: border 2s ease-in-out alternate;
 }
 
 ul li:hover:before {
