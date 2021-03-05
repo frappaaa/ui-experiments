@@ -2,4 +2,43 @@ body {
   margin: 0;
   padding: 0;
 }
+
+img {
+  width: 100%;
+  visibility: hidden;
+  position: absolute;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5em 0 5em 5em;
+  position: relative;
+}
+
+section {
+  width: 800px;
+  position: absolute;
+  right: 10em;
+}
+
+nav {
+  margin-right: 4em;
+  position: fixed;
+  width: 800px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  width: 10em;
+}
+
+ul li {
+  text-transform: uppercase;
+  padding: .8em 0 .8em .8em;
+  cursor: pointer;
+  position: relative;
+}
 /*# sourceMappingURL=style.css.map */
