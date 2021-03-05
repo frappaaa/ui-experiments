@@ -7,10 +7,18 @@ img {
   width: 100%;
   visibility: hidden;
   position: absolute;
+  -webkit-clip-path: polygon(50% 0%, 50% 0, 50% 100%, 50% 100%);
+          clip-path: polygon(50% 0%, 50% 0, 50% 100%, 50% 100%);
+  -webkit-transition: -webkit-clip-path .3s ease-in-out;
+  transition: -webkit-clip-path .3s ease-in-out;
+  transition: clip-path .3s ease-in-out;
+  transition: clip-path .3s ease-in-out, -webkit-clip-path .3s ease-in-out;
 }
 
 img.intro {
   visibility: visible;
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0 100%);
 }
 
 .container {
