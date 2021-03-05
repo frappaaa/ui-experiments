@@ -9,6 +9,10 @@ img {
   position: absolute;
 }
 
+img.intro {
+  visibility: visible;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
