@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    visibility: hidden;
+    position: absolute;
+    clip-path: polygon(50% 0%, 50% 0, 50% 100%, 50% 100%);
+    transition: clip-path .3s ease-in-out;
+
+    &.intro {
+        visibility: visible;
+        clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+.container {
+    display: flex;
+    margin: 5em 0 5em 5em;
+    position: relative;
+}
+
+section {
+    width: 800px;
+    position: absolute;
+    right: 10em;
+}
+
+nav {
+    margin-right: 4em;
+    position: fixed;
+    width: 800px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    width: 10em;
+
+    @keyframes border{
+        0%{
+            border-radius: 87% 13% 86% 14% / 12% 83% 17% 88% ;
+        }
+        100%{
+            border-radius: 49% 51% 49% 51% / 21% 71% 29% 79%;
+        }
+        
+    }
+
+    li {
+        text-transform: uppercase;
+        padding: .8em 0 .8em .8em;
+        cursor: pointer;
+        border-radius: 87% 13% 86% 14% / 12% 83% 17% 88% ;
+        position: relative;
+        transition: border-radius 1s;
+
+        &:before {
+            position: absolute;
+            content: '';
+            width: 0;
+            border-bottom: 2px solid #000;
+            top:1.45em;
+            transition: width 1s;
+        }
+
+        &:hover{
+            border: 1px solid grey;
+            animation: border 2s ease-in-out alternate;
+            &:before{
+                content:'';
+                width:80%;
+            }
+        }
+    }
+}

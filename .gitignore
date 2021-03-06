@@ -1,3 +1,2 @@
-//Ignore scss files
-*.scss
+//Ignore css.map files
 *.css.map
