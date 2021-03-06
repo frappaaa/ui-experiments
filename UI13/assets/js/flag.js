@@ -14,7 +14,7 @@ const loader = new THREE.TextureLoader()
 
 var geometry = new THREE.PlaneGeometry(5, 3, 50, 30);
 var material = new THREE.MeshBasicMaterial({
-    map: loader.load("pride_flag.png")
+    map: loader.load("../img/pride_flag.png")
 });
 var flag = new THREE.Mesh(geometry, material);
 scene.add(flag);
