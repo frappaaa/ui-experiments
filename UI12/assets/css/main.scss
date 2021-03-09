@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    overflow:hidden;
+    display: grid;
+    height:100vh;
+    place-content: center;
+    img{
+        width: 350px;
+        height: 550px;
+        border-radius:20px;
+        transition: transform  200ms;
+        object-fit: cover;
+        &.left{
+            transform: translateX(-100vw)
+        }
+        &.right{
+            transform: translateX(100vw)
+        }
+        &.next{
+            display:none;
+        }
+    }
+}

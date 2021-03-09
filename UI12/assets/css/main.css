@@ -1,1 +1,35 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  overflow: hidden;
+  display: -ms-grid;
+  display: grid;
+  height: 100vh;
+  place-content: center;
+}
+
+body img {
+  width: 350px;
+  height: 550px;
+  border-radius: 20px;
+  -webkit-transition: -webkit-transform  200ms;
+  transition: -webkit-transform  200ms;
+  transition: transform  200ms;
+  transition: transform  200ms, -webkit-transform  200ms;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body img.left {
+  -webkit-transform: translateX(-100vw);
+          transform: translateX(-100vw);
+}
+
+body img.right {
+  -webkit-transform: translateX(100vw);
+          transform: translateX(100vw);
+}
+
+body img.next {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
