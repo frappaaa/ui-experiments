@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+}
+
+body section {
+  background-color: #333;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+body section .draggable {
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: move;
+}
+
+body section .draggable.dragging {
+  opacity: .5;
+}
+/*# sourceMappingURL=main.css.map */
