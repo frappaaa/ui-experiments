@@ -1,0 +1,3 @@
+# [How To Build A Tinder Interface And Control It With Your Eyes](https://www.youtube.com/watch?v=6s2Ug-eVpVc&list=PL4ss7Kp96kRsafxViiPuEXyeTppmfRhJ_&index=2&t=275s)
+
+Eye tracking software is the future of web accessibility. It is already used in niche scenarios, but it really should be more widespread. In this video I show you how to use eye tracking software to control a Tinder style website. It is surprisingly easy. - [Made by Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
