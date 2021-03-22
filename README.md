@@ -13,32 +13,32 @@ Stay tuned and go checkout his [channel](https://www.youtube.com/channel/UCVyRiM
 #### [UI Experiment 2 - Slide Out Navigation](https://github.com/frappaaa/ui-experiments/tree/main/UI02-slide_out_navigation)
 [![Video of Gary Simon doing the UI Experiment 2](https://github.com/frappaaa/ui-experiments/blob/main/img/uiEx2.jpg)](https://www.youtube.com/embed/n4_s0DpiHjQ)
 
-## [UI Experiment 2](https://frappaaa.github.io/ui-experiments/UI03)
+## [UI Experiment 3](https://frappaaa.github.io/ui-experiments/UI03)
 
-## [UI Experiment 2](https://frappaaa.github.io/ui-experiments/UI04)
+## [UI Experiment 4](https://frappaaa.github.io/ui-experiments/UI04)
 
-## [UI Experiment 2](https://frappaaa.github.io/ui-experiments/UI05)
+## [UI Experiment 5](https://frappaaa.github.io/ui-experiments/UI05)
 
-## [UI Experiment 2](https://frappaaa.github.io/ui-experiments/UI06)
+## [UI Experiment 6](https://frappaaa.github.io/ui-experiments/UI06)
 
-## [UI Experiment 2](https://frappaaa.github.io/ui-experiments/UI07)
+## [UI Experiment 7](https://frappaaa.github.io/ui-experiments/UI07)
 
-## [UI Experiment 2](https://frappaaa.github.io/ui-experiments/UI08)
+## [UI Experiment 8](https://frappaaa.github.io/ui-experiments/UI08)
 
-## [UI Experiment 2](https://frappaaa.github.io/ui-experiments/UI09)
+## [UI Experiment 9](https://frappaaa.github.io/ui-experiments/UI09)
 
-## [UI Experiment 2](https://frappaaa.github.io/ui-experiments/UI10)
+## [UI Experiment 10](https://frappaaa.github.io/ui-experiments/UI10)
 
-## [UI Experiment 2](https://frappaaa.github.io/ui-experiments/UI11)
+## [UI Experiment 11](https://frappaaa.github.io/ui-experiments/UI11)
 
-## [UI Experiment 2](https://frappaaa.github.io/ui-experiments/UI12)
+## [UI Experiment 12](https://frappaaa.github.io/ui-experiments/UI12)
 
-## [UI Experiment 2](https://frappaaa.github.io/ui-experiments/UI13)
+## [UI Experiment 13](https://frappaaa.github.io/ui-experiments/UI13)
 
-## [UI Experiment 2](https://frappaaa.github.io/ui-experiments/UI14)
+## [UI Experiment 14](https://frappaaa.github.io/ui-experiments/UI14)
 
-## [UI Experiment 2](https://frappaaa.github.io/ui-experiments/UI15)
+## [UI Experiment 15](https://frappaaa.github.io/ui-experiments/UI15)
 
-## [UI Experiment 2](https://frappaaa.github.io/ui-experiments/UI16)
+## [UI Experiment 16](https://frappaaa.github.io/ui-experiments/UI16)
 
-## [UI Experiment 2](https://frappaaa.github.io/ui-experiments/UI17)
+## [UI Experiment 17](https://frappaaa.github.io/ui-experiments/UI17)
