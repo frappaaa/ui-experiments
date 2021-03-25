@@ -1,21 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Train One', cursive;
+    font-size: 2em;
+    letter-spacing: 2px;
+    background-color: #252525;
     section{
         display:grid;
+        color: #f7f7f7;
         .timezone {
             display:grid;
             grid-template-columns: 100px 1fr 400px;
+            align-items: center;
             &:not(:last-child){
                 border-bottom: 1px solid #000;
-                padding-bottom: 20px;
             }
             .circle{
                 background-color: yellow;
-                width:50px;
-                height:50px;
+                width:35px;
+                height:35px;
                 border-radius:50%;
                 margin:auto;
+            }
+            .hour{
+                text-align:center;
+                letter-spacing: 10px;
             }
         }
     }
