@@ -42,3 +42,4 @@ Stay tuned and go checkout his [channel](https://www.youtube.com/channel/UCVyRiM
 ## [UI Experiment 16](https://frappaaa.github.io/ui-experiments/UI16)
 
 ## [UI Experiment 17](https://frappaaa.github.io/ui-experiments/UI17)
+## [UI Experiment 18](https://frappaaa.github.io/ui-experiments/UI18)
