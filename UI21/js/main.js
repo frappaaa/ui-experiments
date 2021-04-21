@@ -17,8 +17,9 @@ function draw() {
   stroke("red");
   strokeWeight(10);
 
-  translate(width / 2, height / 2);
-  rect(0, 0, 500, 500);
+  const mapX = map(mouseX, 0, width, 0, 500);
+
+  rect(0, 0, mapX, 500);
   push();
   fill("blue");
   noStroke();
