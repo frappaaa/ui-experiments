@@ -1,4 +1,6 @@
 console.clear();
+let posX = 0,
+  posY = 0;
 
 // Prima creo e elaboro questo
 function preload() {}
@@ -7,22 +9,37 @@ function preload() {}
 function setup() {
   createCanvas(windowWidth, windowHeight);
   rectMode(CENTER);
-  colorMode(RGB);
 }
 
 function draw() {
   background(255, 204, 0);
-  fill(0);
-
-  stroke("red");
-  strokeWeight(10);
 
   const mapX = map(mouseX, 0, width, 0, 500);
+  const mapY = map(mouseY, 0, height, 0, 500);
 
-  rect(0, 0, mapX, 500);
-  push();
-  fill("blue");
-  noStroke();
-  ellipse(0, 0, 50);
-  pop();
+  translate(width / 2, height / 2);
+  rect(posX, posY, 500, 500);
+}
+
+function keyPressed() {
+  switch (keyCode) {
+    case LEFT_ARROW:
+      posX -= 10;
+      break;
+
+    case RIGHT_ARROW:
+      posX += 10;
+      break;
+
+    case UP_ARROW:
+      posY -= 10;
+      break;
+
+    case DOWN_ARROW:
+      posY += 10;
+      break;
+
+    default:
+      break;
+  }
 }
