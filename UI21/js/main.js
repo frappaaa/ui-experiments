@@ -1,45 +1,35 @@
 console.clear();
 let posX = 0,
   posY = 0;
+let audio = 0;
+let amp;
 
 // Prima creo e elaboro questo
-function preload() {}
+function preload() {
+  audio = loadSound("audio/song.mp3");
+}
 
 //Poi parte questo
 function setup() {
   createCanvas(windowWidth, windowHeight);
   rectMode(CENTER);
+  amp = new p5.Amplitude();
+  audio.setVolume(0.1);
+  audio.pause();
 }
 
 function draw() {
-  background(255, 204, 0);
+  background(0);
+  stroke(255);
+  translate(0, height / 2);
 
-  const mapX = map(mouseX, 0, width, 0, 500);
-  const mapY = map(mouseY, 0, height, 0, 500);
+  const volume = amp.getLevel();
 
-  translate(width / 2, height / 2);
-  rect(posX, posY, 500, 500);
-}
+  // const mapW = map(volume, 0, 0.1, 0, 500);
+  // rect(posX, posY, mapW, mapW);
 
-function keyPressed() {
-  switch (keyCode) {
-    case LEFT_ARROW:
-      posX -= 10;
-      break;
-
-    case RIGHT_ARROW:
-      posX += 10;
-      break;
-
-    case UP_ARROW:
-      posY -= 10;
-      break;
-
-    case DOWN_ARROW:
-      posY += 10;
-      break;
-
-    default:
-      break;
+  const waveform = audio.getPeaks();
+  for (let i = 0; i < waveform.length; i++) {
+    line(i, waveform[i] * 100, i, waveform[i] * -10);
   }
 }
