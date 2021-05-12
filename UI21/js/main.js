@@ -2,7 +2,10 @@ console.clear();
 let posX = 0,
   posY = 0;
 let audio = 0;
-let amp, fft;
+let amp,
+  fft,
+  bins = 1024,
+  binWidth;
 
 // Prima creo e elaboro questo
 function preload() {
@@ -11,35 +14,27 @@ function preload() {
 
 //Poi parte questo
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  rectMode(CENTER);
+  const canvas = createCanvas(windowWidth, windowHeight);
+  canvas.mouseClicked(togglePlay);
+  fft = new p5.FFT(0, bins);
 
-  audio.setVolume(0.1);
-  audio.play();
-
-  amp = new p5.Amplitude();
-  fft = new p5.FFT();
+  binWidth = width / bins;
 }
 
 function draw() {
   background(0);
-  stroke(255);
-  //translate(0, height / 2);
+  noStroke();
+  const spectrum = fft.analyze();
+  for (let i = 0; i < spectrum.length; i++) {
+    const y = map(spectrum[i], 0, 255, height, 0);
+    rect(i * binWidth, y, binWidth, height - y);
+  }
+}
 
-  const volume = amp.getLevel();
-
-  // const mapW = map(volume, 0, 0.1, 0, 500);
-  // rect(posX, posY, mapW, mapW);
-
-  // const waveform = audio.getPeaks();
-  // for (let i = 0; i < waveform.length; i++) {
-  //   line(i, waveform[i] * 100, i, waveform[i] * -100);
-  // }
-
-  const waveform = fft.waveform();
-  for (let i = 0; i < waveform.length; i++) {
-    const x = map(i, 0, waveform.length, 0, width);
-    const y = map(waveform[i], -1, 1, 0, height);
-    point(x, y);
+function togglePlay() {
+  if (audio.isPlaying()) {
+    audio.pause();
+  } else {
+    audio.play();
   }
 }
