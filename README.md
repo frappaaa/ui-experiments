@@ -48,5 +48,6 @@ Stay tuned and go checkout his [channel](https://www.youtube.com/channel/UCVyRiM
 ![Anteprima dell'esperimento con ripresa video del sito](https://raw.githubusercontent.com/frappaaa/ui-experiments/main/UI19/assets/img/ezgif.com-gif-maker.gif)
 
 ## [UI Experiment 20](https://frappaaa.github.io/ui-experiments/UI20)
+![Anteprima dell'esperimento con ripresa video del sito](https://raw.githubusercontent.com/frappaaa/ui-experiments/main/UI20/assets/img/ezgif.com-gif-maker.gif)
 
 ## [UI Experiment 21](https://frappaaa.github.io/ui-experiments/UI21)
