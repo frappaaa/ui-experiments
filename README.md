@@ -7,11 +7,11 @@ Stay tuned and go checkout his [channel](https://www.youtube.com/channel/UCVyRiM
 
 ## [UI Experiment 1](https://frappaaa.github.io/ui-experiments/UI01)
 #### [UI Experiment 1 - Interactive Hover Card](https://github.com/frappaaa/ui-experiments/tree/main/UI01-interactive_hover_card)
-[![Video of Gary Simon doing the UI Experiment 1](https://github.com/frappaaa/ui-experiments/blob/main/img/uiEx1.jpg)](https://www.youtube.com/embed/a821gLAdLAU)
+[![Video of Gary Simon doing the UI Experiment 1](https://raw.githubusercontent.com/frappaaa/ui-experiments/main/img/uiEx1.jpg)](https://www.youtube.com/embed/a821gLAdLAU)
 
 ## [UI Experiment 2](https://frappaaa.github.io/ui-experiments/UI02)
 #### [UI Experiment 2 - Slide Out Navigation](https://github.com/frappaaa/ui-experiments/tree/main/UI02-slide_out_navigation)
-[![Video of Gary Simon doing the UI Experiment 2](https://github.com/frappaaa/ui-experiments/blob/main/img/uiEx2.jpg)](https://www.youtube.com/embed/n4_s0DpiHjQ)
+[![Video of Gary Simon doing the UI Experiment 2](https://raw.githubusercontent.com/frappaaa/ui-experiments/main/img/uiEx2.jpg)](https://www.youtube.com/embed/n4_s0DpiHjQ)
 
 ## [UI Experiment 3](https://frappaaa.github.io/ui-experiments/UI03)
 
@@ -45,6 +45,9 @@ Stay tuned and go checkout his [channel](https://www.youtube.com/channel/UCVyRiM
 ## [UI Experiment 18](https://frappaaa.github.io/ui-experiments/UI18)
 
 ## [UI Experiment 19](https://frappaaa.github.io/ui-experiments/UI19)
+![Anteprima dell'esperimento con ripresa video del sito](https://raw.githubusercontent.com/frappaaa/ui-experiments/main/UI19/assets/img/ezgif.com-gif-maker.gif)
+
 ## [UI Experiment 20](https://frappaaa.github.io/ui-experiments/UI20)
+![Anteprima dell'esperimento con ripresa video del sito](https://raw.githubusercontent.com/frappaaa/ui-experiments/main/UI20/assets/img/ezgif.com-gif-maker.gif)
 
 ## [UI Experiment 21](https://frappaaa.github.io/ui-experiments/UI21)
