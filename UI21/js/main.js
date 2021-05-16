@@ -135,7 +135,11 @@ function triggerBeatHat() {
   binColor = color(random(255), random(255), random(255), random(255));
 }
 
-function windowResized() {}
+function windowResized() {
+  window.addEventListener("resize", () => {
+    createCanvas(windowWidth, windowHeight);
+  });
+}
 
 function createControls() {
   document.querySelector("button").addEventListener("click", () => {
