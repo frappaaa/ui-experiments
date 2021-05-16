@@ -1,5 +1,26 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: sans-serif;
+}
+
+body button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+body button:hover {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #000;
 }
 /*# sourceMappingURL=main.css.map */
